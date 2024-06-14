@@ -1,0 +1,131 @@
+header{
+ 
+    background-color: rgb(168, 100, 231);
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+p{
+    background-color: rgb(164, 164, 235);
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    border: 3px solid black;
+}
+
+
+h1{ /*selector tipo etiqueta*/
+    color:rgb(90, 37, 90);/* cambiamos el color de la letra */
+    background-color: rgb(193, 136, 240);/* cambiamos el color de fondo*/
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+a{
+    text-decoration: color rgb(236, 148, 236);
+}
+
+section{
+background-color: rgb(144, 199, 181);
+}
+
+
+.parrafo_color{/*selector tipo clase*/
+    color:rgb(40, 40, 94);
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}
+
+.card{
+    background-color: blueviolet;
+    width: 250px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.card img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor_límite{
+    background-color: darkgray;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid rgb(202, 131, 202);
+    text-align: center;
+    border: 3px solid black;
+}
+
+.contenedor_límite_2{
+    margin: 0 auto;
+    background-color: rgb(82, 68, 48);
+    max-width: 1000px;
+    border: 5px solid;
+    padding: 25px;
+}
+.padre{
+    background-color: rgb(132, 106, 153);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+section{
+    margin: 25px;
+}
+.parrafo_footer{
+    color:rgb(50, 50, 124);
+    font-size: 17px;
+    font-style: italic;
+    text-align: left;
+}
+
+
+footer{
+    background-color: rgb(155, 79, 226);
+}
+
+#titulo_redes{/*selector id */
+    color:green;
+}
+
+/*---psudoclases---*/
+nav li :hover {
+    color: aqua;
+    background-color: azure;
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 13px;
+     }
+
+     header{
+        display:flex;
+        flex-direction:column;
+        align-items: start;
+     }
+}
